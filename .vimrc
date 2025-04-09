@@ -1,8 +1,12 @@
 set nocompatible
 syntax on
 set nu
-filetype indent plugin on
+filetype plugin on
 set cursorline
+
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
 
 let mapleader="\<Space>"
 
